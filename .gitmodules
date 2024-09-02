@@ -1,0 +1,6 @@
+[submodule "web"]
+	path = web
+	url = https://github.com/projetoKhali/api5front
+[submodule "api"]
+	path = api
+	url = https://github.com/projetoKhali/api5back
