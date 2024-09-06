@@ -1,6 +1,9 @@
+<br id="topo">
+
+![Read me Khali](https://github.com/user-attachments/assets/94aecab2-e751-4ab4-a2a8-1a6589b4eb01)
+
 
 <p align="center">
-    <a href="#sobre">Projeto</a>  |
     <a href="#backlogs">Backlogs do produto</a>  |
     <a href="#entrega">Entrega das Sprints</a>  |
     <a href="#prototipo">Protótipo</a>   |
@@ -8,11 +11,11 @@
     <a href="#equipe">Equipe</a>
 </p>
 
-<span id="sobre">
 
 <span id="backlogs">
 
-#
+
+## Backlog do produto
 
 <details open>
 <summary>Sprint 1 </summary>
@@ -63,6 +66,8 @@
 
 #
 
+## Entrega das sprints
+
 <details>
 
 <summary>Sprint 1 </summary>
@@ -94,14 +99,14 @@
 ## Burndown
 
 <details>
-<summary> Sprint 3 </summary>
+<summary> Sprint  </summary>
 
 
 </details>
 </br>
 
 <details>
-<summary> Sprint 4 </summary>
+<summary> Sprint  </summary>
 
 
 </details>
@@ -127,6 +132,9 @@
 
 
 <span id="equipe">
+
+![Read me Khali grupo](https://github.com/user-attachments/assets/b79f54f3-8ae6-4380-af1c-49a6143440b1)
+
 
 <table style="width:100%; border-collapse: collapse;">
     <tr style="background-color: #620874; color: #06EF47;">
