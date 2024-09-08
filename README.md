@@ -23,7 +23,7 @@
 
 | **Epíco** | **Story** | **Pontuação** |
 | :-------- | :-------- | :-----------: |
-| Dashboard Processo Seletivo          | Eu como usuário dos sistema quero um dashboard para acompanhar as métricas dos processos seletivos em tempo real e gerir seu progresso e prazos       |               |
+| Dashboard Processo Seletivo          | Eu como usuário do sistema quero um dashboard para acompanhar as métricas dos processos seletivos em tempo real e gerir seu progresso e prazos       |               |
 | Dashboard Processo Seletivo          | Eu como usuário do sistema quero personalizar as métricas disponíveis no dashboard para filtrar informações relevantes de acordo com as minhas necessidades |
 
 </details>
