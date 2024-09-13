@@ -21,7 +21,7 @@
 <summary>Sprint 1 </summary>
 
 
-| **Epíco** | **Story** | **Pontuação** |
+| **Épico** | **Story** | **Pontuação** |
 | :-------- | :-------- | :-----------: |
 | Dashboard Processo Seletivo          | Eu como usuário do sistema quero um dashboard para acompanhar as métricas dos processos seletivos em tempo real e gerir seu progresso e prazos       |               |
 | Dashboard Processo Seletivo          | Eu como usuário do sistema quero personalizar as métricas disponíveis no dashboard para filtrar informações relevantes de acordo com as minhas necessidades |
@@ -32,7 +32,7 @@
 
 <summary> Sprint 2 </summary>
 
-| **Epíco** | **Story** | **Pontuação** |
+| **Épico** | **Story** | **Pontuação** |
 | :-------- | :-------- | :-----------: |
 |           |           |               |
 
@@ -43,7 +43,7 @@
 
 <summary> Sprint 3 </summary>
 
-| **Epíco** | **Story** | **Pontuação** |
+| **Épico** | **Story** | **Pontuação** |
 | :-------- | :-------- | :-----------: |
 |           |           |               |
 
@@ -54,7 +54,7 @@
 
 <summary> Sprint 4 </summary>
 
-| **Epíco** | **Story** | **Pontuação** |
+| **Épico** | **Story** | **Pontuação** |
 | :-------- | :-------- | :-----------: |
 |           |           |               |
 
