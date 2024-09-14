@@ -29,7 +29,7 @@ const sharedHooksSourceDir = "scripts/shared"
 
 func apiProfile() Profile {
 	return Profile{
-		Label:  "api",
+		Label:  "api submodule",
 		Source: "scripts/api",
 		Target: "../.git/modules/api/hooks",
 	}
@@ -37,7 +37,7 @@ func apiProfile() Profile {
 
 func webProfile() Profile {
 	return Profile{
-		Label:  "web",
+		Label:  "web submodule",
 		Source: "scripts/web",
 		Target: "../.git/modules/web/hooks",
 	}
