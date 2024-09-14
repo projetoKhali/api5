@@ -11,7 +11,8 @@
     "hooks-mono": "cd hooks && go run main.go mono",
     "hooks-api": "cd hooks && go run main.go api",
     "hooks-web": "cd hooks && go run main.go web",
-    "postinstall": "pnpm hooks"
+    "web-i": "cd web && pnpm i && cd ..",
+    "postinstall": "pnpm web-i && pnpm hooks"
   },
   "dependencies": {
     "concurrently": "^8.2.2"
