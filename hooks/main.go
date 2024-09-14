@@ -39,7 +39,7 @@ func webProfile() Profile {
 	return Profile{
 		Label:  "web submodule",
 		Source: "scripts/web",
-		Target: "../.git/modules/web/hooks",
+		Target: "../web/.husky/_",
 	}
 }
 
