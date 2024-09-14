@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Run go fmt to format code
+echo "Running gofmt..."
+gofmt -l .
+
+# Run go vet for basic code issues
+echo "Running go vet..."
+go vet ./...
+
+# Run tests to ensure everything is working
+echo "Running tests..."
+go test ./...
+
+# shellcheck disable=2181
+if [ $? -ne 0 ]; then
+    echo "Pre-commit checks failed!"
+    exit 1
+fi
+
+echo "All checks passed."

@@ -1,0 +1,14 @@
+default: true
+
+MD009:
+  list_item_empty_lines: true
+  strict: true
+
+MD022:
+  lines_below: 0
+
+MD025:
+  level: 2
+
+MD026:
+  punctuation: ".,;!"
