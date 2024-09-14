@@ -13,9 +13,21 @@ type Profile struct {
 	Target string
 }
 
-const sharedHooks = "scripts/shared"
+type ProfileError struct {
+	Profile Profile
+	Error   error
+}
 
-func api() Profile {
+func (pe ProfileError) String() string {
+	return fmt.Sprintf(
+		"{\n\tProfile: %q,\n\tSource: %q,\n\tTarget: %q,\n\tError: %q\n}",
+		pe.Profile.Label, pe.Profile.Source, pe.Profile.Target, pe.Error,
+	)
+}
+
+const sharedHooksSourceDir = "scripts/shared"
+
+func apiProfile() Profile {
 	return Profile{
 		Label:  "api",
 		Source: "scripts/api",
@@ -23,7 +35,7 @@ func api() Profile {
 	}
 }
 
-func web() Profile {
+func webProfile() Profile {
 	return Profile{
 		Label:  "web",
 		Source: "scripts/web",
@@ -31,7 +43,7 @@ func web() Profile {
 	}
 }
 
-func mono() Profile {
+func monoProfile() Profile {
 	return Profile{
 		Label:  "mono",
 		Source: "scripts/mono",
@@ -42,88 +54,105 @@ func mono() Profile {
 func main() {
 	args := os.Args[1:]
 	if len(args) == 0 {
-		var waitGroup sync.WaitGroup
-
-		profiles := []Profile{
-			api(),
-			web(),
-			mono(),
-		}
-
-		for _, profile := range profiles {
-			waitGroup.Add(1)
-			go func(p Profile) {
-				defer waitGroup.Done()
-				CopyHooks(p)
-			}(profile)
-		}
-
-		waitGroup.Wait()
-
+		CopyAllHooks()
 		return
 	}
 
 	switch args[0] {
 	case "api":
-		CopyHooks(api())
+		if err := CopyHooks(apiProfile()); err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
 	case "web":
-		CopyHooks(web())
+		if err := CopyHooks(webProfile()); err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
 	case "mono":
-		CopyHooks(mono())
+		if err := CopyHooks(monoProfile()); err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
 	default:
 		fmt.Println("Invalid argument:", args[0])
 		os.Exit(1)
 	}
 }
 
-func CopyHooks(
-	profile Profile,
-) {
-	// Check if the shared directory exists
-	if _, err := os.Stat(sharedHooks); os.IsNotExist(err) {
-		fmt.Println("Shared directory not found")
+func CopyAllHooks() {
+	var waitGroup sync.WaitGroup
+
+	profiles := []Profile{
+		apiProfile(),
+		webProfile(),
+		monoProfile(),
+	}
+
+	errors := make(chan ProfileError, len(profiles))
+
+	for _, profile := range profiles {
+		waitGroup.Add(1)
+		go func(p Profile) {
+			defer waitGroup.Done()
+			if err := CopyHooks(p); err != nil {
+				errors <- ProfileError{
+					Profile: p,
+					Error:   err,
+				}
+			}
+		}(profile)
+	}
+
+	waitGroup.Wait()
+	close(errors)
+
+	if len(errors) > 0 {
+		fmt.Println("❌Errors occurred while installing hooks:")
+
+		for err := range errors {
+			fmt.Println(err)
+		}
+
 		os.Exit(1)
+	}
+}
+
+func CopyHooks(profile Profile) error {
+	// Check if the shared directory exists
+	if _, err := os.Stat(sharedHooksSourceDir); os.IsNotExist(err) {
+		return fmt.Errorf("Shared directory not found: %v", err)
 	}
 
 	// Check if the source directory exists
 	if _, err := os.Stat(profile.Source); os.IsNotExist(err) {
-		fmt.Println("Source directory not found for profile", profile.Label)
-		os.Exit(1)
+		return fmt.Errorf("Source directory not found: %v", err)
 	}
 
 	// Create the target directory if it doesn't exist
 	if _, err := os.Stat(profile.Target); os.IsNotExist(err) {
-		err := os.MkdirAll(profile.Target, 0755)
-		if err != nil {
-			fmt.Println("Error creating target directory for profile", profile.Label, ":", err)
-			os.Exit(1)
+		if err := os.MkdirAll(profile.Target, 0755); err != nil {
+			return fmt.Errorf("Error creating target directory: %v", err)
 		}
 	}
 
 	// Remove existing hooks in the target directory if any
-	err := clearDir(profile.Target)
-	if err != nil {
-		fmt.Println("Error removing existing hooks for profile", profile.Label, ":", err)
-		os.Exit(1)
+	if err := clearDir(profile.Target); err != nil {
+		return fmt.Errorf("Error removing existing hooks: %v", err)
 	}
 
-	fmt.Println("Installing hooks for", profile.Label, "...")
-
 	// Copy shared hooks to the target directory
-	err = copyAll(sharedHooks, profile.Target)
-	if err != nil {
-		fmt.Println("Error installing hooks for profile", profile.Label, ":", err)
-		os.Exit(1)
+	if err := copyAll(sharedHooksSourceDir, profile.Target); err != nil {
+		return fmt.Errorf("Error installing shared hooks: %v", err)
 	}
 
 	// Copy hooks to the target directory
-	err = copyAll(profile.Source, profile.Target)
-	if err != nil {
-		fmt.Println("Error installing hooks for profile", profile.Label, ":", err)
-		os.Exit(1)
+	if err := copyAll(profile.Source, profile.Target); err != nil {
+		return fmt.Errorf("Error installing profile hooks: %v", err)
 	}
 
-	fmt.Println("Hooks installed successfully for", profile.Label)
+	fmt.Println("✅Hooks installed successfully for", profile.Label)
+	return nil
 }
 
 func clearDir(dir string) error {
@@ -132,8 +161,7 @@ func clearDir(dir string) error {
 			return err
 		}
 		if !d.IsDir() {
-			err = os.Remove(path)
-			if err != nil {
+			if err = os.Remove(path); err != nil {
 				return err
 			}
 		}
@@ -153,8 +181,7 @@ func copyAll(sourceDir string, targetDir string) error {
 			if err != nil {
 				return err
 			}
-			err = os.WriteFile(destPath, input, 0755)
-			if err != nil {
+			if err = os.WriteFile(destPath, input, 0755); err != nil {
 				return err
 			}
 		}
