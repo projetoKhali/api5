@@ -1,0 +1,30 @@
+# ditor configuration, see http://editorconfig.org
+root = true
+
+[*]
+# End of line and encoding
+end_of_line = lf
+charset = utf-8
+
+# Default indentation style and size
+indent_style = space
+indent_size = 4
+
+# Trim trailing whitespaces
+trim_trailing_whitespace = true
+
+[*.go]
+# Use tabs and set the tab width for Go files
+indent_style = tab
+tab_width = 4
+
+# Format import blocks
+[*.mod]
+indent_style = tab
+tab_width = 4
+
+[*.json]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
