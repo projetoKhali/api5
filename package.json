@@ -7,6 +7,10 @@
     "web": "cd web && pnpm start",
     "db-up": "cd api && docker-compose up -d",
     "db-down": "cd api && docker-compose down",
+    "hooks": "cd hooks && go run main.go",
+    "hooks-mono": "cd hooks && go run main.go mono",
+    "hooks-api": "cd hooks && go run main.go api",
+    "hooks-web": "cd hooks && go run main.go web"
   },
   "dependencies": {
     "concurrently": "^8.2.2"
