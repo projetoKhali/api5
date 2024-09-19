@@ -23,36 +23,14 @@
 
 | **Épico** | **Story** | **Pontuação** |
 | :-------- | :-------- | :-----------: |
-| Dashboard Processo Seletivo          | Eu como usuário do sistema quero um dashboard para acompanhar as métricas dos processos seletivos em tempo real e gerir seu progresso e prazos       |               |
-| Dashboard Processo Seletivo          | Eu como usuário do sistema quero personalizar as métricas disponíveis no dashboard para filtrar informações relevantes de acordo com as minhas necessidades |
+| Dashboard Processo Seletivo          | Eu como usuário do sistema quero um dashboard para acompanhar as métricas dos processos seletivos em tempo real e gerir seu progresso e prazos       |      9       |
+| Dashboard Processo Seletivo          | Eu como usuário do sistema quero personalizar as métricas disponíveis no dashboard para filtrar informações relevantes de acordo com as minhas necessidades | 8 |
 
 </details>
 </br>
 <details open>
 
 <summary> Sprint 2 </summary>
-
-| **Épico** | **Story** | **Pontuação** |
-| :-------- | :-------- | :-----------: |
-|           |           |               |
-
-</details>
-</br>
-
-<details open>
-
-<summary> Sprint 3 </summary>
-
-| **Épico** | **Story** | **Pontuação** |
-| :-------- | :-------- | :-----------: |
-|           |           |               |
-
-</details>
-</br>
-
-<details open>
-
-<summary> Sprint 4 </summary>
 
 | **Épico** | **Story** | **Pontuação** |
 | :-------- | :-------- | :-----------: |
@@ -100,18 +78,12 @@
 ## Burndown
 
 <details>
-<summary> Sprint  </summary>
+<summary> Sprint 1 </summary>
 
 
 </details>
 </br>
 
-<details>
-<summary> Sprint  </summary>
-
-
-</details>
-</br>
 <span id="prototipo">
 
 #
@@ -193,7 +165,7 @@
     </tr>
     <tr>
         <td style="text-align: center; padding: 10px;">Developer</td>
-        <td style="text-align: center; padding: 10px;">Ludmilla Chagas</td>
+        <td style="text-align: center; padding: 10px;">Ludmila Chagas</td>
         <td style="text-align: center; padding: 10px;">
             <a href="https://www.linkedin.com/in/ludmila-chagas-273548187/"><img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
             <a href="https://github.com/ludmila-chagas"><img src="https://img.shields.io/badge/-GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
