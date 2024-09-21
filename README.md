@@ -41,7 +41,7 @@
 | Gestão de Usuários           | Eu como Gestor de RH quero poder remover usuários para que eles não tenham mais acesso ao sistema | Desejável  |  - Usuário removido com sucesso <br> - Usuário perde imediatamente o acesso <br> - Mensagem de confirmação da remoção |
 | Cadastro de grupos de acesso | Eu como Gestor de RH quero poder criar e gerenciar grupos de usuários com permissões específicas para que cada usuário tenha acesso somente ao que foi pré definido | Importante |  - Criação de grupos de acesso com permissões configuráveis <br > - Usuários atribuídos a grupos e acessos refletidos corretamente <br> - Confirmação de criação e edição de grupos |
 
->Confira nossa documentações: https://github.com/projetoKhali/docs-project.git
+>Confira nossas documentações: https://github.com/projetoKhali/docs-project.git
 
 <span id="backlogsprint">
     
