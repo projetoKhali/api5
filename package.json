@@ -15,7 +15,7 @@
     "hooks-web": "cd hooks && go run main.go web",
     "web-i": "cd web && pnpm i && cd ..",
     "api-i": "cd api && swag init && cd ..",
-    "postinstall": "pnpm web-i && pnpm hooks"
+    "postinstall": "concurrently \"pnpm web-i\" \"pnpm api-i\" && pnpm hooks"
   },
   "dependencies": {
     "concurrently": "^8.2.2"
