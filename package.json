@@ -12,6 +12,7 @@
     "hooks-api": "cd hooks && go run main.go api",
     "hooks-web": "cd hooks && go run main.go web",
     "web-i": "cd web && pnpm i && cd ..",
+    "api-i": "cd api && swag init && cd ..",
     "postinstall": "pnpm web-i && pnpm hooks"
   },
   "dependencies": {
