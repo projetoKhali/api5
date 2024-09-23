@@ -51,7 +51,7 @@
 <summary>Sprint 1 </summary>
 
 
-| **Épico** | **Story** | **Pontuação** |
+| **Épico** | **Funcionalidade** | **Pontuação** |
 | :-------- | :-------- | :-----------: |
 | Dashboard Processo Seletivo          | Eu como usuário do sistema quero um dashboard para acompanhar as métricas dos processos seletivos em tempo real e gerir seu progresso e prazos       |      9       |
 | Dashboard Processo Seletivo          | Eu como usuário do sistema quero personalizar as métricas disponíveis no dashboard para filtrar informações relevantes de acordo com as minhas necessidades | 8 |
@@ -62,9 +62,10 @@
 
 <summary> Sprint 2 </summary>
 
-| **Épico** | **Story** | **Pontuação** |
-| :-------- | :-------- | :-----------: |
-|           |           |               |
+| **Épico** | **Funcionalidade**                  | **Pontuação** |
+| :-------- | :---------------------------------- | :-----------: |
+| Dashboard Vagas  |  Eu como usuário do sistema quero visualizar no dashboard as métricas das vagas de emprego para ter um controle das contratações   |               |
+| Dashboard Vagas  |  Eu como usuário do sistema quero poder personalizar as métricas do dashboard por recrutador, status do processo e status da vaga  |               |
 
 </details>
 </br>
