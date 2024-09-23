@@ -1,1 +1,219 @@
-# api5
+<br id="topo">
+
+![Read me Khali](https://github.com/user-attachments/assets/94aecab2-e751-4ab4-a2a8-1a6589b4eb01)
+
+
+<p align="center">
+    <a href="#backlogproduto">Backlog do produto</a>  |
+    <a href="#backlogsprint">Backlog da sprint    |
+    <a href="#entrega">Entrega das Sprints</a>  |
+    <a href="#prototipo">Protótipo</a>   |
+    <a href="#tecnologias">Tecnologias</a>  |
+    <a href="#equipe">Equipe</a>
+</p>
+
+
+<span id="backlogproduto">
+
+## Backlog do produto
+
+| Épico  | Story | Prioridade | Critérios de aceite |
+|-----------------|------------------------------|------------------------------------------------------|------------|
+|  Dashboard processo seletivo  | Eu como Gestor de RH quero um dashboard para acompanhar as métricas dos processos seletivos e gerir seu progresso e prazos   | Muito Importante |  - O gráfico de barras deve exibir o tempo médio de contratação em comparação com os meses <br> - O gráfico de pizza deve mostrar o status das vagas  (Aberta, Fechada, Em Análise) <br> - Os cards devem exibir as principais métricas do processo seletivo  <br> - Os filtros poderão ser usados para uma melhor para uma melhor personalização do dashboard|
+| Dashboard processo seletivo  | Eu como Analista de RH quero um dashboard para acompanhar as métricas dos processos seletivos e gerir seu progresso e prazos  | Muito Importante |  - O gráfico de barras mostra o tempo médio de contratação em comparação com os meses <br> - O gráfico de pizza mostra o status das vagas  (Aberta, Fechada, Em Análise) <br> - Os cards devem exibir as principais métricas do processo seletivo  <br> - Os filtros poderão ser usados para uma melhor para uma melhor personalização do dashboard |
+|  Dashboard processo seletivo  | Eu como Gestor do setor quero um dashboard para acompanhar as métricas dos processos seletivos e gerir seu progresso e prazos   | Muito Importante | - O gráfico de barras mostra o tempo médio de contratação em comparação com os meses <br> - O gráfico de pizza mostra o status das vagas  (Aberta, Fechada, Em Análise) <br> - Os cards devem exibir as principais métricas do processo seletivo  <br> - Os filtros poderão ser usados para uma melhor para uma melhor personalização do dashboard| 
+| Dashboard vaga               | Eu como Gestor de RH quero visualizar em dashboard as métricas das vagas de emprego para ter um controle das contratações | Importante |  - Dashboard exibe métricas atualizadas em tempo real <br> - Filtros para uma melhor personalização do dashboard <br> - Dados atualizados em tempo real  |
+|  Dashboard vaga               | Eu como Analista de RH quero visualizar em dashboard as métricas das vagas de emprego para ter um controle das contratações  | Importante |  - Visualização clara das vagas em aberto <br> - Filtros para uma melhor personalização do dashboard <br> - Dados atualizados em tempo real |
+ | Dashboard vaga               | Eu como Gestor do setor quero visualizar em dashboard as métricas das vagas de emprego para ter um controle das contratações   | Importante |  - Visualização clara das vagas em aberto da área do gestor <br> - Filtros para uma melhor personalização do dashboard <br> - Dados atualizados em tempo real |
+| Extração de relatório        | Eu como Gestor de RH quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline| Importante | - Relatório exportado para PDF e Excel com sucesso <br> - Dados exportados corretamente e filtros aplicados <br> - Formatação do relatório adequada para ambos os formatos|
+| Extração de relatório        | Eu como Analista de RH quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline   | Importante | - Relatório exportado para PDF e Excel com sucesso <br> - Dados exportados corretamente e filtros aplicados <br> - Formatação do relatório adequada para ambos os formatos |
+| Extração de relatório        | Eu como Gestor do setor quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline  | Importante | - Relatório sobre meu setor exportado para PDF e Excel com sucesso <br> - Dados exportados corretamente e filtros aplicados <br> - Formatação do relatório adequada para ambos os formatos |
+| Extração de relatório        | Como Gestor de RH, quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                     | Desejável  |  - Funcionalidade de personalização de relatórios disponível <br> - Filtros customizáveis aplicados corretamente <br> - Relatórios ajustados com base nas preferências |
+|  Extração de relatório        | Eu como Analista de RH quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                 | Desejável  |   - Funcionalidade de personalização de relatórios disponível <br> - Filtros customizáveis aplicados corretamente <br> - Relatórios ajustados com base nas preferências |
+|  Extração de relatório        | Eu como Gestor do setor quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                | Desejável  |  - Filtros aplicáveis e customizáveis <br> - Relatórios gerados de acordo com as especificações do setor <br> - Exportação com formatação correta |
+|  Notificações                 | Eu como Gestor de RH quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado   | Importante | - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis |
+|  Notificações                 | Eu como Analista de RH quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado    | Importante |  - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis |
+|  Notificações                 | Eu como Gestor do setor quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado  | Desejável  |  - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis |
+|  Indicadores Chaves           | Eu como Gestor de RH quero poder selecionar indicadores chaves para acompanhar seu progresso  | Importante | 	- Seleção e personalização de indicadores chave disponíveis <br> - Progresso visível em tempo real <br> - Atualização automática dos dados dos indicadores |
+|  Indicadores Chaves | Eu como Analista de RH quero poder selecionar indicadores chaves para acompanhar seu progresso    | Importante |  	- Seleção e personalização de indicadores chave disponíveis <br> - Progresso visível em tempo real <br> - Atualização automática dos dados dos indicadores | Indicadores Chaves | Eu como Gestor do setor quero poder selecionar indicadores chaves para acompanhar seu progresso | Desejável   | 	- Seleção e personalização de indicadores chave disponíveis <br> - Progresso visível em tempo real <br> - Atualização automática dos dados dos indicadores |
+|  Gestão de Usuários           | Eu como Gestor de RH quero poder cadastrar usuários para que eles possam acessar o sistema | Importante | - Formulário de cadastro funcional </br> - Validação de campos obrigatórios </br> - Usuário pode acessar o sistema após o cadastro  |
+| Gestão de Usuários           | Eu como Gestor de RH quero poder editar o cadastro de usuários para manter o sistema atualizado | Importante | - Usuário existente editado com sucesso <br> - Permissões modificadas são refletidas no acesso <br> - Confirmação de edição bem-sucedida |
+| Gestão de Usuários           | Eu como Gestor de RH quero poder remover usuários para que eles não tenham mais acesso ao sistema | Desejável  |  - Usuário removido com sucesso <br> - Usuário perde imediatamente o acesso <br> - Mensagem de confirmação da remoção |
+| Cadastro de grupos de acesso | Eu como Gestor de RH quero poder criar e gerenciar grupos de usuários com permissões específicas para que cada usuário tenha acesso somente ao que foi pré definido | Importante |  - Criação de grupos de acesso com permissões configuráveis <br > - Usuários atribuídos a grupos e acessos refletidos corretamente <br> - Confirmação de criação e edição de grupos |
+
+>Confira nossas documentações: https://github.com/projetoKhali/docs-project.git
+
+<span id="backlogsprint">
+    
+## Backlog da sprint
+
+<details open>
+<summary>Sprint 1 </summary>
+
+
+| **Épico** | **Funcionalidade** | **Pontuação** |
+| :-------- | :-------- | :-----------: |
+| Dashboard Processo Seletivo          | Eu como usuário do sistema quero um dashboard para acompanhar as métricas dos processos seletivos em tempo real e gerir seu progresso e prazos       |      9       |
+| Dashboard Processo Seletivo          | Eu como usuário do sistema quero personalizar as métricas disponíveis no dashboard para filtrar informações relevantes de acordo com as minhas necessidades | 8 |
+
+</details>
+</br>
+<details open>
+
+<summary> Sprint 2 </summary>
+
+| **Épico** | **Funcionalidade**                  | **Pontuação** |
+| :-------- | :---------------------------------- | :-----------: |
+| Dashboard Vagas  |  Eu como usuário do sistema quero visualizar no dashboard as métricas das vagas de emprego para ter um controle das contratações   |               |
+| Dashboard Vagas  |  Eu como usuário do sistema quero poder personalizar as métricas do dashboard por recrutador, status do processo e status da vaga  |               |
+
+</details>
+</br>
+
+
+
+<span id="entrega">
+
+
+## Entrega das sprints
+
+<details>
+
+<summary>Sprint 1 - Dashboard de Processo Seletivo </summary>
+
+### De 09/09 a 29/09
+#
+### Dashboard de Processo Seletivo
+
+- Acompanhamento de Processos Seletivos
+- Desenvolvimento de um dashboard interativo com gráficos e métricas que mostram o progresso dos processos seletivos em tempo real. As informações exibidas no dashboard incluem:
+
+    - Cards que exibem as principais métricas do processos seletivos.
+    - Gráfico de barras que exibe o tempo médio de contratação em comparação com os meses.
+    - Gráfico de pizza que exibe os status das vagas.
+
+### Wireframe
+
+- Criação do wireframe das telas do dashboard para aprovação e visualização prévia por parte do usuário, permitindo feedback e ajustes antes do desenvolvimento final.
+
+### Modelagem de Dados
+
+- Modelagem do banco de dados com as tabelas necessárias para armazenar informações sobre os processos seletivos, vagas, candidatos e status.
+
+### Personalização das Métricas
+
+- Funcionalidade que permite ao usuário personalizar as métricas exibidas, com a opção de aplicar filtros por processo seletivo, vagas e período, facilitando uma análise mais direcionada conforme as necessidades de gestão.
+
+</details>
+</br>
+
+
+## Burndown
+
+<details>
+<summary> Sprint 1 </summary>
+
+
+</details>
+</br>
+
+<span id="prototipo">
+
+## Protótipo
+
+### <a href="https://www.figma.com/proto/UAmnY0AL8mKeqezOnPq2Kh/API-5-Prot%C3%B3tipo?node-id=18-2&node-type=canvas&t=o2y0WxLgkEQBoBy6-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1">Figma</a>
+
+<span id="tecnologias">
+
+</br>
+
+## Tecnologias
+
+<h3 style="color: #C1FF72  "> Front-end </h3>
+
+<img height= 80 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+
+> React Native
+          
+<h3 style="color: #C1FF72  "> Back-end </h3>
+
+<img height= 100 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" />
+
+> Go         
+          
+
+#
+
+
+<span id="equipe">
+
+![Read me Khali grupo](https://github.com/user-attachments/assets/b79f54f3-8ae6-4380-af1c-49a6143440b1)
+
+
+<table style="width:100%; border-collapse: collapse;">
+    <tr style="background-color: #620874; color: #06EF47;">
+        <th style="text-align: center; text-align: center; padding: 10px;">Função</th>
+        <th style="text-align: center; text-align: center; padding: 10px;">Nome</th>
+        <th style="text-align: center; text-align: center; padding: 10px;">LinkedIn & GitHub</th>
+    </tr>
+    <tr>
+        <td style="text-align: center; text-align: center; padding: 10px;">Scrum Master</td>
+        <td style="text-align: center; text-align: center; padding: 10px;">Jhonatan Lopes</td>
+        <td style="text-align: center; text-align: center; padding: 10px;">
+            <a href="https://www.linkedin.com/in/jhonatan-o-lopes/"><img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="https://github.com/JhonatanLop"><img src="https://img.shields.io/badge/-GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; text-align: center; padding: 10px;">Product Owner</td>
+        <td style="text-align: center; padding: 10px;">Nicole Souza</td>
+        <td style="text-align: center; padding: 10px;">
+            <a href="https://www.linkedin.com/in/nicolem-souza/"><img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="https://github.com/NicSouza"><img src="https://img.shields.io/badge/-GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; text-align: center; padding: 10px;">Developer</td>
+        <td style="text-align: center; text-align: center; padding: 10px;">Paulo Granthon</td>
+        <td style="text-align: center; text-align: center; padding: 10px;">
+            <a href="https://www.linkedin.com/in/paulo-granthon/"><img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="https://github.com/paulo-granthon"><img src="https://img.shields.io/badge/-GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding: 10px;">Developer</td>
+        <td style="text-align: center; padding: 10px;">Markus Gomes</td>
+        <td style="text-align: center; padding: 10px;">
+            <a href="https://www.linkedin.com/in/markus-gomes-013b76250"><img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="https://github.com/markusgomes"><img src="https://img.shields.io/badge/-GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding: 10px;">Developer</td>
+        <td style="text-align: center; text-align: center; padding: 10px;">Marcos Vinícius Malaquias</td>
+        <td style="text-align: center; text-align: center; padding: 10px;">
+            <a href="https://www.linkedin.com/in/marcos-malaquias/"><img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="https://github.com/Incivius"><img src="https://img.shields.io/badge/-GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding: 10px;">Developer</td>
+        <td style="text-align: center; padding: 10px;">Tânia Cruz</td>
+        <td style="text-align: center; padding: 10px;">
+            <a href="https://www.linkedin.com/in/tânia-cruz-30ab5812a/"><img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="https://github.com/taniacruzz"><img src="https://img.shields.io/badge/-GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding: 10px;">Developer</td>
+        <td style="text-align: center; padding: 10px;">Ludmila Chagas</td>
+        <td style="text-align: center; padding: 10px;">
+            <a href="https://www.linkedin.com/in/ludmila-chagas-273548187/"><img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="https://github.com/ludmila-chagas"><img src="https://img.shields.io/badge/-GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+        </td>
+    </tr>
+</table>
+
+
+
+→ [Voltar ao topo](#topo)
