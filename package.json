@@ -5,6 +5,8 @@
     "mono": "concurrently \"pnpm api\" \"pnpm web\"",
     "api": "cd api && air",
     "web": "cd web && pnpm start",
+    "mono-alt": "concurrently \"pnpm api-alt\" \"pnpm web\"",
+    "api-alt": "pnpm api-i && cd api && go run main.go",
     "db-up": "cd api && docker-compose up -d",
     "db-down": "cd api && docker-compose down",
     "hooks": "cd hooks && go run main.go",
@@ -12,7 +14,8 @@
     "hooks-api": "cd hooks && go run main.go api",
     "hooks-web": "cd hooks && go run main.go web",
     "web-i": "cd web && pnpm i && cd ..",
-    "postinstall": "pnpm web-i && pnpm hooks"
+    "api-i": "cd api && swag init && cd ..",
+    "postinstall": "concurrently \"pnpm web-i\" \"pnpm api-i\" && pnpm hooks"
   },
   "dependencies": {
     "concurrently": "^8.2.2"
