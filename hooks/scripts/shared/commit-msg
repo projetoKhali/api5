@@ -1,6 +1,12 @@
 #!/bin/sh
 
+# Semantic commit regex
 commit_regex="^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(.+\))?: .{10,200}$"
+
+# Merge commit regex
+merge_commit_regex="^Merge (branch|remote-tracking branch) '.+' into .+$"
+
+# Error message for non-compliant commits
 error_msg="
 Commit message does not follow semantic guidelines!
 
@@ -13,7 +19,8 @@ Commit message does not follow semantic guidelines!
 Please fix your commit message and try again.
 "
 
-if ! grep -qE "$commit_regex" "$1"; then
+# Validate commit message
+if ! grep -qE "$commit_regex" "$1" && ! grep -qE "$merge_commit_regex" "$1"; then
     echo "$error_msg"
     exit 1
 fi
