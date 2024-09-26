@@ -10,7 +10,8 @@ go vet ./...
 
 # Run tests to ensure everything is working
 echo "Running tests..."
-go test ./...
+# shellcheck disable=2046
+go test -v $(go list ./... | grep -v 'ent/\|docs/\|_integration_test.go')
 
 # shellcheck disable=2181
 if [ $? -ne 0 ]; then
