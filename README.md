@@ -18,7 +18,7 @@
 
 O desafio apresentado pela empresa <a href="https://www.pro4tech.com.br/"> Pro4tech </a> consiste em aprimorar a eficiência e eficácia no processo de recrutamento e seleção, buscando otimizar a coleta, visualização e análise dos dados. A principal dificuldade está na fragmentação dessas informações, que precisam ser centralizadas para facilitar decisões estratégicas, melhorar a alocação de recursos e alinhar as estratégias de contratação aos objetivos organizacionais.
 
-## Prposta
+## Proposta
 
 Nossa proposta consiste em um dashboard interativo que centraliza informações essenciais sobre o processo de recrutamento. Ele fornecerá insights valiosos e permitirá uma análise detalhada e personalizada das etapas de seleção.
 
