@@ -114,7 +114,7 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 </details>
 </br>
 
-<summary> Sprint 23 </summary>
+<summary> Sprint 3 </summary>
 
 | **Épico** | **Funcionalidade**                  | **Pontuação** |
 | :-------- | :---------------------------------- | :-----------: |
