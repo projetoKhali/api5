@@ -171,6 +171,8 @@ https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
 
 <details>
 <summary> Sprint 1 </summary>
+    
+![Burndown Sprint 1](https://github.com/user-attachments/assets/5e6c02a5-1f58-48db-82af-56f5b042da2c)
 
 
 </details>
