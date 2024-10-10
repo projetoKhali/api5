@@ -47,12 +47,12 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 | Dashboard vaga               | Eu como Gestor de RH quero visualizar em dashboard as métricas das vagas de emprego para ter um controle das contratações | Importante |  - Dashboard exibe métricas atualizadas em tempo real <br> - Filtros para uma melhor personalização do dashboard <br> - Dados atualizados em tempo real  | 	RF-03 | 2 |
 |  Dashboard vaga               | Eu como Analista de RH quero visualizar em dashboard as métricas das vagas de emprego para ter um controle das contratações  | Importante |  - Visualização clara das vagas em aberto <br> - Filtros para uma melhor personalização do dashboard <br> - Dados atualizados em tempo real | 	RF-03 | 2 |
  | Dashboard vaga               | Eu como Gestor do setor quero visualizar em dashboard as métricas das vagas de emprego para ter um controle das contratações   | Importante |  - Visualização clara das vagas em aberto da área do gestor <br> - Filtros para uma melhor personalização do dashboard <br> - Dados atualizados em tempo real | 	RF-03 | 2 |
-| Extração de relatório        | Eu como Gestor de RH quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline| Importante | - Relatório exportado para PDF e Excel com sucesso <br> - Dados exportados corretamente e filtros aplicados <br> - Formatação do relatório adequada para ambos os formatos| RF-04 | 
-| Extração de relatório        | Eu como Analista de RH quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline   | Importante | - Relatório exportado para PDF e Excel com sucesso <br> - Dados exportados corretamente e filtros aplicados <br> - Formatação do relatório adequada para ambos os formatos | RF-04 |
-| Extração de relatório        | Eu como Gestor do setor quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline  | Importante | - Relatório sobre meu setor exportado para PDF e Excel com sucesso <br> - Dados exportados corretamente e filtros aplicados <br> - Formatação do relatório adequada para ambos os formatos | RF-04 |
-| Extração de relatório        | Como Gestor de RH, quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                     | Desejável  |  - Funcionalidade de personalização de relatórios disponível <br> - Filtros customizáveis aplicados corretamente <br> - Relatórios ajustados com base nas preferências | 	RF-02 |
-|  Extração de relatório        | Eu como Analista de RH quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                 | Desejável  |   - Funcionalidade de personalização de relatórios disponível <br> - Filtros customizáveis aplicados corretamente <br> - Relatórios ajustados com base nas preferências | RF-02 |
-|  Extração de relatório        | Eu como Gestor do setor quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                | Desejável  |  - Filtros aplicáveis e customizáveis <br> - Relatórios gerados de acordo com as especificações do setor <br> - Exportação com formatação correta | RF-02 |
+| Extração de relatório        | Eu como Gestor de RH quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline| Importante | - Relatório exportado para PDF e Excel com sucesso <br> - Dados exportados corretamente e filtros aplicados <br> - Formatação do relatório adequada para ambos os formatos| RF-04 | 3 |
+| Extração de relatório        | Eu como Analista de RH quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline   | Importante | - Relatório exportado para PDF e Excel com sucesso <br> - Dados exportados corretamente e filtros aplicados <br> - Formatação do relatório adequada para ambos os formatos | RF-04 | 3 | 
+| Extração de relatório        | Eu como Gestor do setor quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline  | Importante | - Relatório sobre meu setor exportado para PDF e Excel com sucesso <br> - Dados exportados corretamente e filtros aplicados <br> - Formatação do relatório adequada para ambos os formatos | RF-04 | 3 |
+| Extração de relatório        | Como Gestor de RH, quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                     | Desejável  |  - Funcionalidade de personalização de relatórios disponível <br> - Filtros customizáveis aplicados corretamente <br> - Relatórios ajustados com base nas preferências | 	RF-02 | 3 | 
+|  Extração de relatório        | Eu como Analista de RH quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                 | Desejável  |   - Funcionalidade de personalização de relatórios disponível <br> - Filtros customizáveis aplicados corretamente <br> - Relatórios ajustados com base nas preferências | RF-02 | 3 |
+|  Extração de relatório        | Eu como Gestor do setor quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                | Desejável  |  - Filtros aplicáveis e customizáveis <br> - Relatórios gerados de acordo com as especificações do setor <br> - Exportação com formatação correta | RF-02 | 3 |
 |  Notificações                 | Eu como Gestor de RH quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado   | Importante | - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis | 	RF-06 |
 |  Notificações                 | Eu como Analista de RH quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado    | Importante |  - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis | 	RF-06 |
 |  Notificações                 | Eu como Gestor do setor quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado  | Desejável  |  - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis | 	RF-06 |
@@ -64,9 +64,9 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 | Gestão de Usuários           | Eu como Gestor de RH quero poder remover usuários para que eles não tenham mais acesso ao sistema | Desejável  |  - Usuário removido com sucesso <br> - Usuário perde imediatamente o acesso <br> - Mensagem de confirmação da remoção | RF-01 |
 | Cadastro de grupos de acesso | Eu como Gestor de RH quero poder criar e gerenciar grupos de usuários com permissões específicas para que cada usuário tenha acesso somente ao que foi pré definido | Importante |  - Criação de grupos de acesso com permissões configuráveis <br > - Usuários atribuídos a grupos e acessos refletidos corretamente <br> - Confirmação de criação e edição de grupos | RF-01 |
 
->Confira nossas documentações: https://github.com/projetoKhali/docs-project.git
-
 </details>
+
+>Confira nossas documentações: https://github.com/projetoKhali/docs-project.git
 
 <details>
 <summary>Requisitos do projeto </summary>
@@ -107,12 +107,21 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 
 | **Épico** | **Funcionalidade**                  | **Pontuação** |
 | :-------- | :---------------------------------- | :-----------: |
-| Dashboard Vagas  |  Eu como usuário do sistema quero visualizar no dashboard as métricas das vagas de emprego para ter um controle das contratações   |               |
-| Dashboard Vagas  |  Eu como usuário do sistema quero poder personalizar as métricas do dashboard por recrutador, status do processo e status da vaga  |               |
+| Dashboard Vagas  |  Eu como usuário do sistema quero visualizar no dashboard as métricas das vagas de emprego para ter um controle das contratações   |       8       |
+| Dashboard Vagas  |  Eu como usuário do sistema quero poder personalizar as métricas do dashboard por recrutador, status do processo e status da vaga  |       7       |
 
 </details>
 </br>
 
+<summary> Sprint 23 </summary>
+
+| **Épico** | **Funcionalidade**                  | **Pontuação** |
+| :-------- | :---------------------------------- | :-----------: |
+| Extração de relatório   |  Eu como usuário do sistema quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline   |               |
+| Extração de relatório   |  Eu como usuário do sistema quero poder filtrar e personalizar os relatórios para que eu possa extrair somente os dados necessários                         |               |
+
+</details>
+</br>
 
 
 <span id="entrega">
@@ -146,6 +155,13 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 ### Personalização das Métricas
 
 - Funcionalidade que permite ao usuário personalizar as métricas exibidas, com a opção de aplicar filtros por processo seletivo, vagas e período, facilitando uma análise mais direcionada conforme as necessidades de gestão.
+
+### Video demonstrando o funcionamento da aplicação
+
+
+https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
+
+
 
 </details>
 </br>
