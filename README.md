@@ -66,8 +66,6 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 
 </details>
 
->Confira nossas documentações: https://github.com/projetoKhali/docs-project.git
-
 <details>
 <summary>Requisitos do projeto </summary>
 
@@ -85,6 +83,9 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 | RNF-04  | Não Funcional  | Implementação de protocolos de segurança para proteger dados sensíveis dos candidatos e da empresa, conforme as melhores práticas de segurança da informação. | Alta       |
 
 </details>
+
+>Confira nossas documentações: https://github.com/projetoKhali/docs-project.git
+
 
 <span id="backlogsprint">
     
