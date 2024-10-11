@@ -179,6 +179,14 @@ https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
 </details>
 </br>
 
+<details>
+<summary> Sprint 2</summary>
+
+![Burndown sprint 2](https://github.com/user-attachments/assets/bc124a35-13a7-4951-b5fb-a4da6220051f)
+
+
+</details>
+
 ## Gerenciamento do projeto 
 
 <a href="https://github.com/orgs/projetoKhali/projects/21/views/5">Github Projects</a>
