@@ -7,9 +7,12 @@
     <a href="#backlogproduto">Backlog do produto</a>  |
     <a href="#backlogsprint">Backlog da sprint </a> |
     <a href="#entrega">Entrega das Sprints</a>  |
+    <a href="#burndown">Burndown</a>  |
+    <a href="#gerenciamento">Gerenciamento do projeto</a>  |
+    <a href="#documentacoes">Documentações</a>  |
     <a href="#prototipo">Protótipo</a>     |
     <a href="#tecnologias">Tecnologias</a>  |
-    <a href="#equipe">Equipe</a>
+    <a href="#equipe">Equipe</a>        
 </p>
 
 <span id="sobre">
@@ -83,8 +86,6 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 | RNF-04  | Não Funcional  | Implementação de protocolos de segurança para proteger dados sensíveis dos candidatos e da empresa, conforme as melhores práticas de segurança da informação. | Alta       |
 
 </details>
-
->Confira nossas documentações: https://github.com/projetoKhali/docs-project.git
 
 
 <span id="backlogsprint">
@@ -167,6 +168,35 @@ https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
 </details>
 </br>
 
+<details>
+
+<summary>Sprint 2 - Dashboard de vagas </summary>
+
+### De 30/09 a 20/10
+#
+### Dashboard de Vagas
+
+- Acompanhamento de vagas
+- Desenvolvimento de um dashboard interativo com gráficos e métricas que mostram o progresso das vagas em tempo real. As informações exibidas no dashboard que foram incluidas nesta sprint são:
+
+    - Tabela contendo dados importantes sobre as vagas.
+
+### Wireframe
+
+- Modificações no wireframe das telas do dashboard para aprovação e visualização prévia por parte do usuário, permitindo feedback e ajustes antes do desenvolvimento final.
+
+### Modelagem de Dados
+
+- Modelagem do banco de dados com as tabelas necessárias para armazenar informações sobre os processos seletivos, vagas, candidatos e status.
+
+### Personalização das Métricas
+
+- Funcionalidade que permite ao usuário personalizar as métricas exibidas, foram adicionados mais filtros para que a personalização seja ainda mais precisa.
+
+</details>
+</br>
+
+<span id="burndown">
 
 ## Burndown
 
@@ -187,9 +217,20 @@ https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
 
 </details>
 
+<span id="gerenciamento">
+
 ## Gerenciamento do projeto 
 
 <a href="https://github.com/orgs/projetoKhali/projects/21/views/5">Github Projects</a>
+
+<span id="documentacoes">
+
+## Documentações 
+
+>Confira nossas documentações: https://github.com/projetoKhali/docs-project.git
+<br>
+
+>Confira nosso manual do usuário: https://sites.google.com/view/projetokhali/in%C3%ADcio
 
 <span id="prototipo">
 
