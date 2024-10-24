@@ -115,6 +115,8 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 </details>
 </br>
 
+<details open> 
+    
 <summary> Sprint 3 </summary>
 
 | **Épico** | **Funcionalidade**                  | **Pontuação** |
@@ -184,10 +186,6 @@ https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
 ### Wireframe
 
 - Modificações no wireframe das telas do dashboard para aprovação e visualização prévia por parte do usuário, permitindo feedback e ajustes antes do desenvolvimento final.
-
-### Modelagem de Dados
-
-- Modelagem do banco de dados com as tabelas necessárias para armazenar informações sobre os processos seletivos, vagas, candidatos e status.
 
 ### Personalização das Métricas
 
