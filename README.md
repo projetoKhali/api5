@@ -56,16 +56,16 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 | Extração de relatório        | Como Gestor de RH, quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                     | Desejável  |  - Funcionalidade de personalização de relatórios disponível <br> - Filtros customizáveis aplicados corretamente <br> - Relatórios ajustados com base nas preferências | 	RF-02 | 3 | 
 |  Extração de relatório        | Eu como Analista de RH quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                 | Desejável  |   - Funcionalidade de personalização de relatórios disponível <br> - Filtros customizáveis aplicados corretamente <br> - Relatórios ajustados com base nas preferências | RF-02 | 3 |
 |  Extração de relatório        | Eu como Gestor do setor quero poder filtrar e personalizar os relatórios extraídos para que eu possa adaptar os dados às minhas necessidades e facilitar a gestão.                | Desejável  |  - Filtros aplicáveis e customizáveis <br> - Relatórios gerados de acordo com as especificações do setor <br> - Exportação com formatação correta | RF-02 | 3 |
-|  Notificações                 | Eu como Gestor de RH quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado   | Importante | - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis | 	RF-06 |
-|  Notificações                 | Eu como Analista de RH quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado    | Importante |  - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis | 	RF-06 |
-|  Notificações                 | Eu como Gestor do setor quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado  | Desejável  |  - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis | 	RF-06 |
-|  Indicadores Chaves           | Eu como Gestor de RH quero poder selecionar indicadores chaves para acompanhar seu progresso  | Importante | 	- Seleção e personalização de indicadores chave disponíveis <br> - Progresso visível em tempo real <br> - Atualização automática dos dados dos indicadores | RF-06 |
-|  Indicadores Chaves | Eu como Analista de RH quero poder selecionar indicadores chaves para acompanhar seu progresso    | Importante |  	- Seleção e personalização de indicadores chave disponíveis <br> - Progresso visível em tempo real <br> - Atualização automática dos dados dos indicadores | RF-06 |
-| Indicadores Chaves | Eu como Gestor do setor quero poder selecionar indicadores chaves para acompanhar seu progresso | Desejável   | 	- Seleção e personalização de indicadores chave disponíveis <br> - Progresso visível em tempo real <br> - Atualização automática dos dados dos indicadores | RF-06 |
-|  Gestão de Usuários           | Eu como Gestor de RH quero poder cadastrar usuários para que eles possam acessar o sistema | Importante | - Formulário de cadastro funcional </br> - Validação de campos obrigatórios </br> - Usuário pode acessar o sistema após o cadastro  | RF-01 |
-| Gestão de Usuários           | Eu como Gestor de RH quero poder editar o cadastro de usuários para manter o sistema atualizado | Importante | - Usuário existente editado com sucesso <br> - Permissões modificadas são refletidas no acesso <br> - Confirmação de edição bem-sucedida | RF-01 |
-| Gestão de Usuários           | Eu como Gestor de RH quero poder remover usuários para que eles não tenham mais acesso ao sistema | Desejável  |  - Usuário removido com sucesso <br> - Usuário perde imediatamente o acesso <br> - Mensagem de confirmação da remoção | RF-01 |
-| Cadastro de grupos de acesso | Eu como Gestor de RH quero poder criar e gerenciar grupos de usuários com permissões específicas para que cada usuário tenha acesso somente ao que foi pré definido | Importante |  - Criação de grupos de acesso com permissões configuráveis <br > - Usuários atribuídos a grupos e acessos refletidos corretamente <br> - Confirmação de criação e edição de grupos | RF-01 |
+|  Notificações                 | Eu como Gestor de RH quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado   | Importante | - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis | 	RF-06 | 4 |
+|  Notificações                 | Eu como Analista de RH quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado    | Importante |  - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis | 	RF-06 | 4 |
+|  Notificações                 | Eu como Gestor do setor quero ser notificado sempre que um indicador chave for atingido para eu me manter atualizado  | Desejável  |  - Notificações geradas automaticamente ao atingir indicadores chave <br> - Frequência e formato das notificações customizáveis | 	RF-06 | 4 |
+|  Indicadores Chaves           | Eu como Gestor de RH quero poder selecionar indicadores chaves para acompanhar seu progresso  | Importante | 	- Seleção e personalização de indicadores chave disponíveis <br> - Progresso visível em tempo real <br> - Atualização automática dos dados dos indicadores | RF-06 | 4 |
+|  Indicadores Chaves | Eu como Analista de RH quero poder selecionar indicadores chaves para acompanhar seu progresso    | Importante |  	- Seleção e personalização de indicadores chave disponíveis <br> - Progresso visível em tempo real <br> - Atualização automática dos dados dos indicadores | RF-06 | 4 |
+| Indicadores Chaves | Eu como Gestor do setor quero poder selecionar indicadores chaves para acompanhar seu progresso | Desejável   | 	- Seleção e personalização de indicadores chave disponíveis <br> - Progresso visível em tempo real <br> - Atualização automática dos dados dos indicadores | RF-06 | 4 |
+|  Gestão de Usuários           | Eu como Gestor de RH quero poder cadastrar usuários para que eles possam acessar o sistema | Importante | - Formulário de cadastro funcional </br> - Validação de campos obrigatórios </br> - Usuário pode acessar o sistema após o cadastro  | RF-01 | 4 |
+| Gestão de Usuários           | Eu como Gestor de RH quero poder editar o cadastro de usuários para manter o sistema atualizado | Importante | - Usuário existente editado com sucesso <br> - Permissões modificadas são refletidas no acesso <br> - Confirmação de edição bem-sucedida | RF-01 | 4 |
+| Gestão de Usuários           | Eu como Gestor de RH quero poder remover usuários para que eles não tenham mais acesso ao sistema | Desejável  |  - Usuário removido com sucesso <br> - Usuário perde imediatamente o acesso <br> - Mensagem de confirmação da remoção | RF-01 | 4 |
+| Cadastro de grupos de acesso | Eu como Gestor de RH quero poder criar e gerenciar grupos de usuários com permissões específicas para que cada usuário tenha acesso somente ao que foi pré definido | Importante |  - Criação de grupos de acesso com permissões configuráveis <br > - Usuários atribuídos a grupos e acessos refletidos corretamente <br> - Confirmação de criação e edição de grupos | RF-01 | 4 |
 
 </details>
 
@@ -121,12 +121,24 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 
 | **Épico** | **Funcionalidade**                  | **Pontuação** |
 | :-------- | :---------------------------------- | :-----------: |
-| Extração de relatório   |  Eu como usuário do sistema quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline   |               |
-| Extração de relatório   |  Eu como usuário do sistema quero poder filtrar e personalizar os relatórios para que eu possa extrair somente os dados necessários                         |               |
+| Extração de relatório   |  Eu como usuário do sistema quero extrair relatórios com os dados do processo seletivo em formatos como PDF e Excel para apresentações e análises offline   |         9      |
+| Extração de relatório   |  Eu como usuário do sistema quero poder filtrar e personalizar os relatórios para que eu possa extrair somente os dados necessários                         |         8      |
 
 </details>
 </br>
 
+<details open> 
+    
+<summary> Sprint 4 </summary>
+
+| **Épico** | **Funcionalidade**                  | **Pontuação** |
+| :-------- | :---------------------------------- | :-----------: |
+| Gestão de Usuários  |  Eu como administrador do sistema quero poder gerenciar os usuários que possuem acessso a aplicação   |               |
+| Cadastro de grupos de acesso  |  Eu como administrador do sistema quero poder gerenciar grupos de acesso para que os usuários tenham permissões somente ao que foi pré definido   |               |
+| Notificações  |  Eu como usuário do sistema quero receber notificações quando o prazo de um processo seletivo estiver prestes a expirar                     |               |
+
+</details>
+</br>
 
 <span id="entrega">
 
@@ -194,6 +206,31 @@ https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
 </details>
 </br>
 
+<details>
+
+<summary>Sprint 3 - Extração de relatórios </summary>
+
+### De 21/10 a 10/11
+#
+### Extração de relatórios
+
+- Criação de uma nova tela em que o cliente pode extrair relatórios personalizados para que possam realizar análises offline.
+
+### Wireframe
+
+- Modificações no wireframe das telas do dashboard para aprovação e visualização prévia por parte do usuário, permitindo feedback e ajustes antes do desenvolvimento final.
+
+### Personalização das Métricas
+
+- Funcionalidade que permite ao usuário personalizar as métricas exibidas na tela de extração de relatórios.
+
+### Correções
+
+- Foram implementadas algumas modificações e correções que foram solicitadas pelo cliente.
+
+</details>
+</br>
+
 <span id="burndown">
 
 ## Burndown
@@ -205,13 +242,23 @@ https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
 
 
 </details>
-</br>
 
 <details>
 <summary> Sprint 2</summary>
 
 
 ![burndown sprint 2](https://github.com/user-attachments/assets/f772a887-2c42-4d4d-8701-fb0bba6974df)
+
+
+</details>
+
+<details>
+<summary> Sprint 3</summary>
+
+![Sprint 3](https://github.com/user-attachments/assets/cfb44ac6-231f-446a-8999-105bc4ab7c06)
+
+
+>https://burndown-khali.netlify.app/
 
 
 </details>
