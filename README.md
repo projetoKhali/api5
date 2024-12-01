@@ -133,9 +133,9 @@ Essa solução oferece uma visão clara e abrangente do processo seletivo, permi
 
 | **Épico** | **Funcionalidade**                  | **Pontuação** |
 | :-------- | :---------------------------------- | :-----------: |
-| Gestão de Usuários  |  Eu como administrador do sistema quero poder gerenciar os usuários que possuem acessso a aplicação   |               |
-| Cadastro de grupos de acesso  |  Eu como administrador do sistema quero poder gerenciar grupos de acesso para que os usuários tenham permissões somente ao que foi pré definido   |               |
-| Notificações  |  Eu como usuário do sistema quero receber notificações quando o prazo de um processo seletivo estiver prestes a expirar                     |               |
+| Gestão de Usuários  |  Eu como administrador do sistema quero poder gerenciar os usuários que possuem acessso a aplicação   |      8         |
+| Cadastro de grupos de acesso  |  Eu como administrador do sistema quero poder gerenciar grupos de acesso para que os usuários tenham permissões somente ao que foi pré definido   |     9          |
+| Notificações  |  Eu como usuário do sistema quero receber notificações quando o prazo de um processo seletivo estiver prestes a expirar                     |     8          |
 
 </details>
 </br>
@@ -231,6 +231,32 @@ https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
 </details>
 </br>
 
+<details>
+
+<summary>Sprint 4 - Acessos e notificações </summary>
+
+### De 11/11 a 01/12
+#
+### Gestão de usuários
+
+- Criação de uma nova tela em que o administrador consegue cadastrar novos usuários para utilizarem o sistema.
+  
+### Cadastro de grupo de acesso
+
+- Com a criação de grupos de acesso o administrador consegue gerenciar o acesso dos usuários e o que eles podem visualizar.
+
+### Notificações
+
+- Foi criado um sistema de notificações para que o o usuário seja notificado quando um processo seletivo estiver pestes a encerrar.
+
+### Wireframe
+
+- Modificações no wireframe das telas do dashboard para aprovação e visualização prévia por parte do usuário, permitindo feedback e ajustes antes do desenvolvimento final.
+
+
+</details>
+</br>
+
 <span id="burndown">
 
 ## Burndown
@@ -260,6 +286,15 @@ https://github.com/user-attachments/assets/5b3d1251-f504-41c7-8af6-ef9a4df80c7d
 
 >https://burndown-khali.netlify.app/
 
+
+</details>
+
+<details>
+<summary> Sprint 4</summary>
+
+![image](https://github.com/user-attachments/assets/3c81cfd7-7198-4a06-8856-503438b92e20)
+
+>https://burndown-khali.netlify.app/
 
 </details>
 
